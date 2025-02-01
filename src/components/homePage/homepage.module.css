@@ -1,0 +1,22 @@
+.gridContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.gridContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  color: black;
+  background-color: azure;
+  cursor: pointer;
+}
+.gridContainer div:hover {
+  background-color: rgb(98, 210, 210);
+}

@@ -1,0 +1,31 @@
+.profile-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card__avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.profile-card__name {
+    font-size: 1.5em;
+    margin: 8px 0;
+}
+
+.profile-card__occupation {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.profile-card__hobbies {
+    font-size: 1em;
+    color: #777;
+}

@@ -1,0 +1,10 @@
+.HomeButton {
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.HomeButton:hover {
+  background-color: lightskyblue;
+}

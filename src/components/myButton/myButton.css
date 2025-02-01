@@ -1,0 +1,8 @@
+.myButton{
+    margin: 3px;
+    background-color: #0082fc;
+}
+
+.myButton:hover{
+    background-color: #03265a;
+}

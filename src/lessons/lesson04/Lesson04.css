@@ -1,0 +1,27 @@
+.counter > span {
+    margin: 0 8px 0;
+    color: rgb(8, 184, 46);
+    
+}
+
+.counter > button:hover {
+    color:brown;
+    background-color:aqua
+}
+.counter > button {
+    color:brown;
+    background-color:rgb(224, 246, 246)
+}
+
+
+.switch{
+    color: rgb(131, 45, 160);
+    background-color: bisque;
+    margin-top: 5%;
+}
+.day-mode{
+    background-color: azure;
+}
+.night-mode{
+    background-color: rgb(106, 92, 92);
+}
