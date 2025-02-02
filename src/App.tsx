@@ -3,7 +3,7 @@ import "./App.css";
 // import Lesson10 from "./lessons/lesson10/Lesson10";
 import Layout from "./layout/Layout";
 import Lesson05 from "./lessons/lesson05/Lesson05";
-import Lesson10 from "./lessons/lesson10/Lesson10";
+import Lesson10 from "./lesson/lessons/lesson10/Lesson10";
 import NoPage from "./components/noPage/NoPage";
 import HomePage from "./components/homePage/HomePage";
 // import HomeWork08 from './homeWorks/homeWork08/HomeWork08'

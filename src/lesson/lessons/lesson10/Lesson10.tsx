@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "../../styles/Lesson10.module.css";
+import styles from "./Lesson10.module.css";
 
 interface CatFact {
   fact: string;

@@ -9,6 +9,7 @@ import NoPage from "./components/noPage/NoPage";
 import HomePage from "./components/homePage/HomePage";
 import Lesson04 from "./lessons/lesson04/Lesson04";
 import Lesson09 from "./lessons/lesson09/Lesson09";
+import Lesson10 from "./lessons/lesson10/Lesson10";
 import Lesson11 from "./lessons/lesson11/Lesson11";
 import Lesson12 from "./lessons/lesson12/Lesson12";
 
