@@ -3,7 +3,7 @@ import styles from './homepage.module.css'
 
 export default function HomePage() {
   return (
-    <div className='lesson-container'>
+    <div className={styles.lessonContainer}>
       {/* <h2>Home page 🏡</h2> */}
       <div className={styles.gridContainer}>
         <Link to='lesson-1'><div>Lesson 1</div></Link>
@@ -18,6 +18,7 @@ export default function HomePage() {
         <Link to='lesson-10'><div>Lesson 10</div></Link>
         <Link to='lesson-11'><div>Lesson 11</div></Link>
         <Link to='lesson-12'><div>Lesson 12</div></Link>
+        <Link to='lesson-13'><div>Lesson 13</div></Link>
       </div>
     </div>
   )

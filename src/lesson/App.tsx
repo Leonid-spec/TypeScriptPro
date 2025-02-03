@@ -10,8 +10,9 @@ import HomePage from "./components/homePage/HomePage";
 import Lesson04 from "./lessons/lesson04/Lesson04";
 import Lesson09 from "./lessons/lesson09/Lesson09";
 import Lesson10 from "./lessons/lesson10/Lesson10";
-import Lesson11 from "./lessons/lesson11/Lesson11";
+import Lesson11 from "./lessons/lesson11/FormGender";
 import Lesson12 from "./lessons/lesson12/Lesson12";
+import Lesson13 from "./lessons/lesson13/Lesson13";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Route path="lesson-10" element={<h2>Lesson 10. react practice ⚡️</h2>} />
           <Route path="lesson-11" element={<Lesson11 />} />
           <Route path="lesson-12" element={<Lesson12 />} />
+          <Route path="lesson-13" element={<Lesson13 />} />
           {/* компонент по пути * будет отображаться по всем путям, которые явно не описаны в маршрутизации  */}
           <Route path="*" element={<NoPage />} />
         </Route>
