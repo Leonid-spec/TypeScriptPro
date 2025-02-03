@@ -1,5 +1,5 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
-import './App.css';
+import "./App.css";
 import Homework08 from "./homeworks/homework08/Homework08";
 import Layout from "./layout/Layout";
 import Lesson05 from "./lessons/lesson05/Lesson05";
@@ -13,10 +13,10 @@ import Lesson10 from "./lessons/lesson10/Lesson10";
 import Lesson11 from "./lessons/lesson11/FormGender";
 import Lesson12 from "./lessons/lesson12/Lesson12";
 import Lesson13 from "./lessons/lesson13/Lesson13";
-
+import HomeWork13 from "./lessons/homeWork13/RegisterForm";
+import RegisterForm from "./lessons/homeWork13/RegisterForm";
 
 function App() {
-
   return (
     // оборачиваем все приложение в компонент HashRouter из библиотеки React Router
     <HashRouter>
@@ -38,10 +38,14 @@ function App() {
           <Route path="lesson-7" element={<h2>Lesson 7</h2>} />
           <Route path="lesson-8" element={<Lesson08 />} />
           <Route path="lesson-9" element={<Lesson09 />} />
-          <Route path="lesson-10" element={<h2>Lesson 10. react practice ⚡️</h2>} />
+          <Route
+            path="lesson-10"
+            element={<h2>Lesson 10. react practice ⚡️</h2>}
+          />
           <Route path="lesson-11" element={<Lesson11 />} />
           <Route path="lesson-12" element={<Lesson12 />} />
           <Route path="lesson-13" element={<Lesson13 />} />
+          <Route path="homeWork-13" element={<RegisterForm />} />
           {/* компонент по пути * будет отображаться по всем путям, которые явно не описаны в маршрутизации  */}
           <Route path="*" element={<NoPage />} />
         </Route>
