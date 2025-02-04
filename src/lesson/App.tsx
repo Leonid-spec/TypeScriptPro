@@ -15,6 +15,8 @@ import Lesson12 from "./lessons/lesson12/Lesson12";
 import Lesson13 from "./lessons/lesson13/Lesson13";
 import HomeWork13 from "./lessons/homeWork13/RegisterForm";
 import RegisterForm from "./lessons/homeWork13/RegisterForm";
+import Lesson14 from "./lessons/lesson14/Lesson14";
+import ProductPage from "./components/productPage/productPage";
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
           <Route path="lesson-11" element={<Lesson11 />} />
           <Route path="lesson-12" element={<Lesson12 />} />
           <Route path="lesson-13" element={<Lesson13 />} />
+          <Route path="lesson-14" element={<Lesson14 />} />
+          <Route path="lesson-14/:id" element={<ProductPage />} />
           <Route path="homeWork-13" element={<RegisterForm />} />
           {/* компонент по пути * будет отображаться по всем путям, которые явно не описаны в маршрутизации  */}
           <Route path="*" element={<NoPage />} />
